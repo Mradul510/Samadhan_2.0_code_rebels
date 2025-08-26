@@ -11,3 +11,7 @@ Educational-Ai based project within it this repo contain it's minor parts and pr
 ### Day2
 
 -Find highest marks from an array
+
+### Day3
+
+-Simple Student Marks Calculator

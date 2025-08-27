@@ -14,4 +14,8 @@ Educational-Ai based project within it this repo contain it's minor parts and pr
 
 ### Day3
 
--Simple Student Marks Calculator
+-Simple student marks calculator
+
+### DAy4
+
+- API returning "Hello, World!"

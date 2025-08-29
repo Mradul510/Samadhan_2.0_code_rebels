@@ -40,6 +40,16 @@ An educational AI-based project repository containing multiple **learning module
   - **POST** `/` → Add a new student
   - **DELETE** `/:id` → Remove a student by ID
 
+### Day 6 - React Setup
+
+- **Topic**: Introduction to React with Vite  
+- **Goal**: Build a Profile Card Component  
+- **Skills**: React components, props, JSX, styling, interactivity  
+- **Features**:  
+  - Colorful profile cards with gradient background  
+  - Hover effects & animations  
+  - "Connect" button with interactive design
+
 ---
 
 ## 🚀 Quick Start
@@ -121,7 +131,7 @@ curl -X DELETE http://localhost:3000/2
 ## 📂 Project Structure
 
 ```
-Samadhan_2.0_code_rebels/
+samadhan_2.0_code_rebels/
 ├── Day1/                  # JavaScript Objects fundamentals
 │   └── index.js
 ├── Day2/                  # Arrays and iteration methods
@@ -135,6 +145,13 @@ Samadhan_2.0_code_rebels/
 │   ├── app.js
 │   ├── package.json
 │   └── routes/
+├── Day6-react/            # React app with Vite
+│   ├── src/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
 └── README.md
 ```
 
@@ -146,6 +163,7 @@ Samadhan_2.0_code_rebels/
 - **Node.js** - Runtime environment
 - **Express.js** - Web framework for APIs
 - **npm** - Package management
+- **React (with Vite)** - Frontend library for UI
 
 ---
 
@@ -156,6 +174,7 @@ This repository is designed for progressive learning:
 1. **Start with Day 1** - Master JavaScript object fundamentals
 2. **Progress through each day** - Build on previous concepts
 3. **Complete Day 5** - Apply all learned concepts in a full API project
+4. **Day 6** - Add interactivity with React components
 
 Each module includes:
 

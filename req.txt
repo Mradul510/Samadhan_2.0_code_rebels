@@ -1,0 +1,1 @@
+npm create vite@latest <folder-na--> -- --template react  (to create react in your folder)

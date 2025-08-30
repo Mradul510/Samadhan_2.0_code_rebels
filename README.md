@@ -50,6 +50,14 @@ An educational AI-based project repository containing multiple **learning module
   - Hover effects & animations  
   - "Connect" button with interactive design
 
+### Day 7 - State Management
+
+- **Topic**: React `useState` hook & input handling  
+- **Goal**: Create a Counter + Live Text Preview  
+- **Skills**: State management, re-rendering, controlled components  
+- **Features**:  
+  - Increment button to update counter  
+  - Input box to display text live on screen 
 ---
 
 ## 🚀 Quick Start
@@ -81,6 +89,10 @@ An educational AI-based project repository containing multiple **learning module
 4. **Access the application**
    - Open your browser and navigate to: `http://localhost:3000`
    - For API testing, use the endpoints below
+   - For React modules (Day 6 & Day 7), run:
+   - ```bash
+   npm run dev
+   ```
 
 ---
 
@@ -132,20 +144,27 @@ curl -X DELETE http://localhost:3000/2
 
 ```
 samadhan_2.0_code_rebels/
-├── Day1/                  # JavaScript Objects fundamentals
-│   └── index.js
-├── Day2/                  # Arrays and iteration methods
-│   └── index.js
-├── Day3/                  # Functions and calculator logic
-│   └── index.js
-├── Day4/                  # Basic Express.js server
-│   ├── app.js
+├── Day1/                  # JavaScript Basics
+│   └── day_1_.js
+├── Day2/                  # Functions & Loops
+│   └── day_2.js
+├── Day3/                  # Arrays & Objects
+│   └── day_3.js
+├── Day4/                  # Node.js Intro
+│   ├── day_4.js
 │   └── package.json
-├── Day5/                  # RESTful Student API
-│   ├── app.js
+├── Day5/                  # Express.js Basics
+│   ├── day_5.js
 │   ├── package.json
 │   └── routes/
-├── Day6-react/            # React app with Vite
+├── Day6-react/            # React Setup
+│   ├── src/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+├── Day7-state/            # React app (State Management)
 │   ├── src/
 │   │   ├── App.jsx
 │   │   └── main.jsx
@@ -175,6 +194,7 @@ This repository is designed for progressive learning:
 2. **Progress through each day** - Build on previous concepts
 3. **Complete Day 5** - Apply all learned concepts in a full API project
 4. **Day 6** - Add interactivity with React components
+5. **Day 7** - Manage state and build interactive UI
 
 Each module includes:
 

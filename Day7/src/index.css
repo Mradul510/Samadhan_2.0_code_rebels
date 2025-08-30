@@ -1,0 +1,130 @@
+
+/* Code Rebels Styling Day 7*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+
+
+/* Body */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #141414;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+}
+
+/* Code Rebels special style */
+.main-title {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #e50914; /* Netflix Red */
+  text-transform: uppercase;
+  text-shadow: 0px 0px 20px rgba(229, 9, 20, 0.6);
+  transition: transform 0.3s ease;
+}
+.main-title:hover {
+  transform: scale(1.05);
+}
+
+/* Card Styling */
+.card {
+  background: #1c1c1c;
+  padding: 25px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 12px 40px rgba(229, 9, 20, 0.5);
+}
+
+/* Card Titles */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+  border-left: 4px solid #e50914;
+  padding-left: 10px;
+}
+
+/* Counter */
+.counter-value {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 10px rgba(229, 9, 20, 0.7);
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.btn {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  letter-spacing: 1px;
+}
+.btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.6);
+}
+.btn-red { background: #e50914; color: #fff; }
+.btn-green { background: #46d369; color: #000; }
+.btn-gray { background: #808080; color: #fff; }
+
+/* Input Box */
+.input-box {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  background: #333;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.input-box:focus {
+  outline: none;
+  border: 2px solid #e50914;
+  background: #222;
+  box-shadow: 0px 0px 15px rgba(229, 9, 20, 0.6);
+}
+
+/* Preview Text */
+.preview {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #bbb;
+}
+.highlight {
+  font-weight: 700;
+  color: #e50914;
+}

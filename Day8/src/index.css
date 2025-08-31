@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.main-title {
+  color: #333;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.card input {
+  padding: 8px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.card button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  background: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -58,6 +58,15 @@ An educational AI-based project repository containing multiple **learning module
 - **Features**:  
   - Increment button to update counter  
   - Input box to display text live on screen 
+
+### Day 8 - Lists & Events (To-Do List)
+
+- ***Topic**: Rendering lists with .map, handling onClick and onChange events
+- **Goal**: Build a To-Do List app with local state + local storage
+- **Skills**: React lists, event handling, persistent storage
+- **Features**:
+  -Add and delete tasks dynamically
+  -Tasks saved in local storage
 ---
 
 ## 🚀 Quick Start
@@ -89,11 +98,10 @@ An educational AI-based project repository containing multiple **learning module
 4. **Access the application**
    - Open your browser and navigate to: `http://localhost:3000`
    - For API testing, use the endpoints below
-   - For React modules (Day 6 & Day 7), run:
+   - For React modules (Day 6 , Day 7 & Day 8), run:
    - ```bash
    npm run dev
    ```
-
 ---
 
 ## 🔗 API Documentation (Day 5)
@@ -171,6 +179,14 @@ samadhan_2.0_code_rebels/
 │   ├── index.html
 │   ├── package.json
 │   └── vite.config.js
+├── Day8-todo/             # React app (To-Do List with Events & Local Storage)
+│   ├── src/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── index.css
+│   ├── package.json
+│   └── vite.config.js
 └── README.md
 ```
 
@@ -195,6 +211,7 @@ This repository is designed for progressive learning:
 3. **Complete Day 5** - Apply all learned concepts in a full API project
 4. **Day 6** - Add interactivity with React components
 5. **Day 7** - Manage state and build interactive UI
+6. **Day 8** - Work with lists, events & persistent storage (To-Do app)
 
 Each module includes:
 

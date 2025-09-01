@@ -30,7 +30,7 @@ An educational AI-based project repository containing multiple **learning module
 - **Goal**: Create API returning `"Hello, World!"`
 - **Skills**: Express.js setup, routing, HTTP responses
 
-### Day 5 - RESTful API Development
+### Day 5 - Express.js Basics
 
 - **Topic**: Full CRUD API operations
 - **Goal**: Student management API with JSON responses
@@ -61,12 +61,31 @@ An educational AI-based project repository containing multiple **learning module
 
 ### Day 8 - Lists & Events (To-Do List)
 
-- ***Topic**: Rendering lists with .map, handling onClick and onChange events
+- **Topic**: Rendering lists with .map, handling onClick and onChange events
 - **Goal**: Build a To-Do List app with local state + local storage
 - **Skills**: React lists, event handling, persistent storage
 - **Features**:
-  -Add and delete tasks dynamically
-  -Tasks saved in local storage
+  - Add and delete tasks dynamically
+  - Tasks saved in local storage
+
+### Day 9 - React + Backend Integration (Student Directory)
+
+- **Topic**: Using useEffect & Fetch API with a backend
+- **Goal**: Build a Student Directory app connected to Node.js Frontend + Express.js Backend
+- **Backend**:
+  - Node.js + Express.js for persistent student data
+- **Endpoints**:
+  - GET `/students` → Fetch all students
+  - POST `/students` → Add a new student
+  - DELETE `/students/:id` → Remove a studentGET /students → Fetch all students
+- **Frontend (React)**:
+  - Fetch and render student list from backend
+  - Add and delete students dynamically
+  - Styled with modern professional CSS
+- **Skills**:
+  - useEffect for side effects & data fetching
+  - Axios/Fetch API integration
+
 ---
 
 ## 🚀 Quick Start
@@ -98,10 +117,11 @@ An educational AI-based project repository containing multiple **learning module
 4. **Access the application**
    - Open your browser and navigate to: `http://localhost:3000`
    - For API testing, use the endpoints below
-   - For React modules (Day 6 , Day 7 & Day 8), run:
-   - ```bash
+   - For React modules (Day 6 , Day 7 , Day 8 & Day 9), run:
+   ```bash
    npm run dev
    ```
+
 ---
 
 ## 🔗 API Documentation (Day 5)
@@ -187,6 +207,16 @@ samadhan_2.0_code_rebels/
 │   ├── index.css
 │   ├── package.json
 │   └── vite.config.js
+├── Day9-student-directory/
+│   ├── backend/           # Node.js + Express.js
+│   │   └── server.js
+│   ├── frontend/          # React app
+│   │   ├── src/
+│   │   │   ├── App.js
+│   │   │   ├── App.css
+│   │   │   └── main.jsx
+│   │   ├── index.html
+│   │   └── package.json
 └── README.md
 ```
 
@@ -199,6 +229,7 @@ samadhan_2.0_code_rebels/
 - **Express.js** - Web framework for APIs
 - **npm** - Package management
 - **React (with Vite)** - Frontend library for UI
+- **Axios** - HTTP requests from React
 
 ---
 
@@ -212,6 +243,7 @@ This repository is designed for progressive learning:
 4. **Day 6** - Add interactivity with React components
 5. **Day 7** - Manage state and build interactive UI
 6. **Day 8** - Work with lists, events & persistent storage (To-Do app)
+7. **Day 9** - Build a full-stack Student Directory with React + Node + Express
 
 Each module includes:
 

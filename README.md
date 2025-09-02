@@ -86,6 +86,19 @@ An educational AI-based project repository containing multiple **learning module
   - useEffect for side effects & data fetching
   - Axios/Fetch API integration
 
+### Day 10 - Styling with Tailwind CSS (Product Card List)
+
+- **Topic**: Tailwind CSS setup & component-based styling
+- **Goal**: Build a Styled Product Card List
+- **Skills**:
+  - Tailwind installation and configuration
+  - Responsive layouts with flexbox & grid
+  - Utility-first styling approach
+- **Features**:
+  - Professional looking product cards
+  - Images, titles, prices, and buttons
+  - Hover animations & responsive design
+
 ---
 
 ## 🚀 Quick Start
@@ -117,7 +130,7 @@ An educational AI-based project repository containing multiple **learning module
 4. **Access the application**
    - Open your browser and navigate to: `http://localhost:3000`
    - For API testing, use the endpoints below
-   - For React modules (Day 6 , Day 7 , Day 8 & Day 9), run:
+   - For React modules (Day 6 --> Day 10), run:
    ```bash
    npm run dev
    ```
@@ -171,53 +184,67 @@ curl -X DELETE http://localhost:3000/2
 ## 📂 Project Structure
 
 ```
-samadhan_2.0_code_rebels/
-├── Day1/                  # JavaScript Basics
-│   └── day_1_.js
-├── Day2/                  # Functions & Loops
-│   └── day_2.js
-├── Day3/                  # Arrays & Objects
-│   └── day_3.js
-├── Day4/                  # Node.js Intro
-│   ├── day_4.js
-│   └── package.json
-├── Day5/                  # Express.js Basics
-│   ├── day_5.js
-│   ├── package.json
-│   └── routes/
-├── Day6-react/            # React Setup
-│   ├── src/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-├── Day7-state/            # React app (State Management)
-│   ├── src/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-├── Day8-todo/             # React app (To-Do List with Events & Local Storage)
-│   ├── src/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── index.html
-│   ├── index.css
-│   ├── package.json
-│   └── vite.config.js
+Samadhan_2.0_code_rebels/
+├── Day1/ # JavaScript Basics
+│ └── day_1_.js
+├── Day2/ # Functions & Loops
+│ └── day_2.js
+├── Day3/ # Arrays & Objects
+│ └── day_3.js
+├── Day4/ # Node.js Intro
+│ ├── day_4.js
+│ └── package.json
+├── Day5/ # Express.js Basics
+│ ├── day_5.js
+│ ├── package.json
+│ └── routes/
+├── Day6-react/ # React Setup
+│ ├── src/
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ ├── index.html
+│ ├── package.json
+│ └── vite.config.js
+├── Day7-state/ # React app (State Management)
+│ ├── src/
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ ├── index.html
+│ ├── package.json
+│ └── vite.config.js
+├── Day8-todo/ # React app (To-Do List with Events & Local Storage)
+│ ├── src/
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ ├── index.html
+│ ├── index.css
+│ ├── package.json
+│ └── vite.config.js
 ├── Day9-student-directory/
-│   ├── backend/           # Node.js + Express.js
-│   │   └── server.js
-│   ├── frontend/          # React app
-│   │   ├── src/
-│   │   │   ├── App.js
-│   │   │   ├── App.css
-│   │   │   └── main.jsx
-│   │   ├── index.html
-│   │   └── package.json
+│ ├── backend/ # Node.js + Express.js
+│ │ └── server.js
+│ ├── frontend/ # React app
+│ │ ├── src/
+│ │ │ ├── App.js
+│ │ │ ├── App.css
+│ │ │ └── main.jsx
+│ │ ├── index.html
+│ │ └── package.json
+├── Day10-styling/ # React + Tailwind Product Card List
+│ ├── src/
+│ │ ├── components/ # Reusable UI Components
+│ │ │ ├── ProductCard.jsx
+│ │ │ └── ProductCardList.jsx
+│ │ ├── App.jsx
+│ │ ├── App.css
+│ │ ├── index.css
+│ │ └── main.jsx
+│ ├── tailwind.config.js
+│ ├── postcss.config.js
+│ ├── index.html
+│ └── package.json
 └── README.md
+
 ```
 
 ---
@@ -230,6 +257,7 @@ samadhan_2.0_code_rebels/
 - **npm** - Package management
 - **React (with Vite)** - Frontend library for UI
 - **Axios** - HTTP requests from React
+- **Tailwind CSS** - Utility-first CSS framework
 
 ---
 
@@ -244,6 +272,7 @@ This repository is designed for progressive learning:
 5. **Day 7** - Manage state and build interactive UI
 6. **Day 8** - Work with lists, events & persistent storage (To-Do app)
 7. **Day 9** - Build a full-stack Student Directory with React + Node + Express
+8. **Day 10** - Apply styling with Tailwind CSS on productcard list
 
 Each module includes:
 
@@ -265,3 +294,5 @@ Each module includes:
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+

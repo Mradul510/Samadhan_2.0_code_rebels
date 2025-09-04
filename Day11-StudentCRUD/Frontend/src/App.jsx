@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import StudentCard from "./components/StudentCard";
+import "./App.css";
+import "./components/StudentCard.css";
 
 export default function App() {
   const [students, setStudents] = useState([]);

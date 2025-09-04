@@ -1,0 +1,51 @@
+/* src/components/StudentCard.css */
+
+.student-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; /* White background for the card */
+  padding: 1.5rem; /* More padding inside the card */
+  border: 1px solid #b0dae6; /* Soft bluish border */
+  border-radius: 12px; /* Nicely rounded card corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Softer, more pronounced shadow */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.student-card:hover {
+  transform: translateY(-5px); /* Lift card more on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); /* Enhanced shadow on hover */
+}
+
+.student-info p {
+  margin: 0;
+  color: #34495e; /* Darker blue-gray for student info text */
+}
+
+.student-name {
+  margin-bottom: 0.5rem !important; /* More space below name */
+  font-size: 1.3rem; /* Larger font for the name */
+  font-weight: 600; /* Slightly bolder name */
+  color: #217dbb; /* Blue color for the student name */
+}
+
+.student-age {
+  font-size: 1rem;
+  color: #5d6d7e; /* Lighter color for age */
+}
+
+.delete-button {
+  background-color: #e74c3c; /* Red for delete button */
+  color: white;
+  border: none;
+  border-radius: 6px; /* Slightly more rounded */
+  padding: 0.6rem 1.2rem; /* More padding for button */
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 0.95rem;
+}
+
+.delete-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}

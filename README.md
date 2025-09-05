@@ -2,6 +2,14 @@
 
 An educational AI-based project repository containing multiple **learning modules** that demonstrate programming concepts step by step. This project covers JavaScript basics, Node.js fundamentals, and Express.js API development.
 
+PPT is included in this repository.
+And here is the video link of youtube presentation:
+--->
+```bash
+https://youtu.be/zG-zL5hhgrQ?si=O_HNQtV-pI2ekeuN
+
+```
+
 ---
 
 ## 📚 Learning Modules
@@ -260,19 +268,6 @@ Samadhan_2.0_code_rebels/
 - **Tailwind CSS** - Utility-first CSS framework
 
 ---
-
-## 📖 Learning Path
-
-This repository is designed for progressive learning:
-
-1. **Start with Day 1** - Master JavaScript object fundamentals
-2. **Progress through each day** - Build on previous concepts
-3. **Complete Day 5** - Apply all learned concepts in a full API project
-4. **Day 6** - Add interactivity with React components
-5. **Day 7** - Manage state and build interactive UI
-6. **Day 8** - Work with lists, events & persistent storage (To-Do app)
-7. **Day 9** - Build a full-stack Student Directory with React + Node + Express
-8. **Day 10** - Apply styling with Tailwind CSS on productcard list
 
 Each module includes:
 

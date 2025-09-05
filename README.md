@@ -5,10 +5,10 @@ An educational AI-based project repository containing multiple **learning module
 PPT is included in this repository.
 And here is the video link of youtube presentation:
 --->
-```bash
+
 https://youtu.be/zG-zL5hhgrQ?si=O_HNQtV-pI2ekeuN
 
-```
+
 
 ---
 
@@ -106,6 +106,30 @@ https://youtu.be/zG-zL5hhgrQ?si=O_HNQtV-pI2ekeuN
   - Professional looking product cards
   - Images, titles, prices, and buttons
   - Hover animations & responsive design
+
+### Day 11 - Backend CRUD
+
+- **Topic**: Express routes for CRUD operations
+- **Goal**: Student CRUD API
+- **Skills**:
+  - Express routes : GET,POST,PUT,DELETE
+
+### Day 12 - REACT+AUTH
+
+- **Topic**: Fetch + render data from backend with React
+- **Goal**: TOdo App with Node JS
+- **Skills**:
+  - Render data
+  - Add + Delete functionality
+
+### Day 13 - Database Basics
+
+- **Topic**: Connect Express with DB
+- **Goal**: Make Notes App with full stack CRUD
+- **Skills**:
+  - Backend(Express&Node)
+  - Frontend(React)
+  - MongoDB
 
 ---
 
